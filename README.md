@@ -21,8 +21,10 @@ Some of the key features of this project are
 - Angular routing
 - Dependency Injection
 - Observables from rxjs
+- JSON web tokens
 
-# .NET features: 
+# Architecture: 
 - Repository / Service pattern
 - Dependency Injection
 - Entity - Model mapping
+- JWT Authentication
