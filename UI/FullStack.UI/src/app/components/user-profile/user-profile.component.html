@@ -1,0 +1,18 @@
+<div class="px-5">
+    <div class = "px-5">
+        <p class ="lead">User: {{name}}</p>
+        <p class ="lead">Welcome to personal TaskManager page!</p>
+        </div>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink = "tasks">All Tasks</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" [routerLink] = "['tasks/create-task']">Create new Task</a>
+        </li>
+        
+  </ul>
+</div>
+
+<router-outlet name = "tasks"></router-outlet>
+<router-outlet name = "tasks/create-task"></router-outlet>

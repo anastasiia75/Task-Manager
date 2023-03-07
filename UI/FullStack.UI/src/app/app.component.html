@@ -1,0 +1,42 @@
+<nav class="navbar navbar-fixed-top navbar-dark bg-dark">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand">Task Manager</a>
+
+      <form *ngIf="!SignIn()" class = "ms-auto">
+        <button class="btn btn-outline-success me-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal" [routerLink]="[{ outlets: { loginPopup: ['login'] }}]"
+        >LogIn</button> 
+        <button class="btn btn-outline-success me-2" type="button" data-bs-toggle="modal" aria-labelledby="exampleModalLabel" data-bs-target="#regModal" [routerLink]="[{ outlets: { regPopup: ['register'] }}]"
+        >Register</button>
+      </form>
+      <div *ngIf = "SignIn()" >
+        <button class="btn btn-outline-success me-2" type="button" (click) = "LogOut()"  routerLink = ""
+        >LogOut</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" 
+      aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      </div>
+      
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" [routerLink]= "['user-profile',name]">Home</a>
+            </li>
+               
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<router-outlet name= "user-profile/:id"></router-outlet> 
+  <router-outlet name= "loginPopup"></router-outlet> 
+  <router-outlet name= "regPopup"></router-outlet> 
+<router-outlet></router-outlet>

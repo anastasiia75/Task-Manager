@@ -1,0 +1,29 @@
+
+
+<div class="modal-backdrop fade "  style = "opacity: 1; background-color: rgba(99, 96, 96, 0.395); " [ngClass]="{ show: showModal }" id="loginModal" tabindex="-1"  >
+  <div class="modal d-block " >
+  <div class="modal-dialog "  role="document" [ngClass]="{ show: showModal }">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+        <button type="button" class="btn-close"  aria-label="Close" (click)="onClose()"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup] = "formData" (ngSubmit)="onClickSubmit(formData.value)">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="text" class="form-control" formControlName="username" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input formControlName="password" type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+

@@ -1,0 +1,31 @@
+<p>tasks-list works!</p>
+<div class="container my-5">
+    <h1 class = "mb-3">Tasks</h1>
+    <table class = "table" *ngIf = "tasks && tasks.length > 0">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date Of Creation</th>
+            <th>Done</th>
+            <th>Deadline</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor = "let task of tasks">
+                <td>{{task.id}}</td>
+                <td>{{task.name}}</td>
+                <td>{{task.description}}</td>
+                <td>{{task.dateOfCreation | date :'short'}}</td>
+                <td>{{task.isDone}}</td>
+                <td>{{task.deadline | date :'short'}}</td>
+
+                <td><a [routerLink]= "['edit', task.id]">View</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <p *ngIf ="!tasks || tasks.length <= 0">No tasks Found</p>
+</div>
+
+<router-outlet name = "edit/:taskid"></router-outlet>

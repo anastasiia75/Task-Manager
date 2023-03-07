@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\bin\Debug\net6.0\TaskManagerDomain.deps.json
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\bin\Debug\net6.0\TaskManagerDomain.dll
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\bin\Debug\net6.0\TaskManagerDomain.pdb
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.AssemblyInfo.cs
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.dll
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\refint\TaskManagerDomain.dll
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.pdb
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\ref\TaskManagerDomain.dll
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\bin\Debug\net6.0\TaskManagerDomain.runtimeconfig.json
+C:\Users\User\Desktop\programming\pet project\TaskManager\API\TaskManagerDomain\obj\Debug\net6.0\TaskManagerDomain.genruntimeconfig.cache
