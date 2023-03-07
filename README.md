@@ -12,7 +12,7 @@ Some of the key features of this project are
 1.5 The list of all the upcoming appointments and the feature for searching for an appointment should be there.
 
 
-Angular features:
+#Angular features:
 
 - Reactive forms
 - Components
@@ -21,3 +21,8 @@ Angular features:
 - Angular routing
 - Dependency Injection
 - Observables from rxjs
+
+#.NET features: 
+- Repository / Service pattern
+- Dependency Injection
+- Entity - Model mapping
