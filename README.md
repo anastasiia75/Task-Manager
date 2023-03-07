@@ -1,7 +1,7 @@
 # Task-Manager
 
 
-This is a web-based project that allows the users to log in to the web page. After logging in, the users can view, add, edit or even delete the tasks.
+This is a web-based project that allows the users to register and log in to the web page. After logging in, the users can view, add, edit or even delete the tasks.
 
 Some of the key features of this project are
 
